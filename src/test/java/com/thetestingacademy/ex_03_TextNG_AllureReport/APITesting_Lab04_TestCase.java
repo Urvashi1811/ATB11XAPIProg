@@ -7,7 +7,7 @@ public class APITesting_Lab04_TestCase {
 String pincode = "389151";
     @Test
     public void test_GET_Positive_TC1() {
-        String  pincode = "389151";
+        pincode = "389151";
         RestAssured
                 .given()
                 .baseUri("https://api.postalpincode.in")
